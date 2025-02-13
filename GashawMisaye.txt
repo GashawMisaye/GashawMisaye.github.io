@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Site</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 40px; }
+        h1 { color: #333; }
+        p { max-width: 600px; margin: auto; }
+        .container { max-width: 800px; margin: auto; padding: 20px; }
+        .cv-link { margin-top: 20px; display: inline-block; padding: 10px 20px; background: #007BFF; color: white; text-decoration: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Your Name</h1>
+        <p>Welcome to my personal website! Here you can learn about my research interests and download my CV.</p>
+        
+        <h2>About Me</h2>
+        <p>Brief introduction about yourself. You can include your background, what you are studying, and your future goals.</p>
+        
+        <h2>Research Interests</h2>
+        <p>List your main research interests here. Example: Behavioral Economics, Machine Learning in Economics, etc.</p>
+        
+        <h2>CV</h2>
+        <p>Download my CV below:</p>
+        <a class="cv-link" href="cv.pdf" download>Download CV</a>
+    </div>
+</body>
+</html>
